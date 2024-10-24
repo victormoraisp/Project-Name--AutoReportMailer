@@ -1,2 +1,14 @@
 # Project Name: AutoReportMailer
- AutoReportMailer is a Python-based automation tool that simplifies the process of web data retrieval, file download, and email distribution. Using Selenium, it automates web navigation to fetch reports, saves them as PDFs, and sends them via email with attachments. Ideal for automating repetitive tasks like downloading financial reports or other documents, AutoReportMailer ensures seamless integration of web scraping and email notifications.
+Automated Download and Email Script
+This script automates the process of downloading a file from a website using Selenium, printing it to PDF, and sending it via email with the attachment. It integrates both web automation and email functionalities, offering an end-to-end solution for tasks like report retrieval and distribution.
+
+Features
+Automates web navigation using Selenium WebDriver.
+Downloads a file and saves it as a PDF in a specific folder.
+Sends an email with the PDF as an attachment using SMTP.
+Requirements
+Python 3.x
+Selenium
+Google Chrome WebDriver
+smtplib (Standard Python Library)
+A Gmail account for sending emails (use app-specific passwords for security).
